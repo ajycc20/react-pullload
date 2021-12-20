@@ -1,0 +1,25 @@
+{
+  "name": "react-pullload",
+  "version": "1.0.1",
+  "description": "pull refresh & load, based on better-scroll",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajycc20/react-pullload.git"
+  },
+  "keywords": [
+    "pull-refresh",
+    "pull-load",
+    "better-scroll",
+    "react"
+  ],
+  "author": "ajycc20 <ajycc20@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajycc20/react-pullload/issues"
+  },
+  "homepage": "https://github.com/ajycc20/react-pullload#readme"
+}

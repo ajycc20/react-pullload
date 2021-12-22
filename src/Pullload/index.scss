@@ -1,5 +1,88 @@
+@use 'sass:math';
+
+$baseFontSize: 16px;
+//pixels to rems
+@function rem($px) {
+  @return math.div($px, $baseFontSize) * 1rem;
+}
+
+.pull-load-wrapper {
+  position: relative;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+}
+
+.pull-load-wrapper-visible {
+  display: none;
+}
+
 .pull-load-content {
-    background: #000;
-    width: 300px;
-    height: 300px;
+  padding-bottom: rem(134px);
+}
+
+.pull-load-loading,
+.pull-load-more {
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  transform: translateY(-100%) translateZ(0);
+
+  .pull-load-refresh-start,
+  .pull-load-refresh-loading,
+  .pull-load-refresh-end {
+    img {
+      width: rem(36px);
+      height: rem(16px);
+    }
+
+    .text {
+      margin-top: rem(5px);
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: rem(10px);
+      font-weight: 400;
+      line-height: rem(10px);
+      color: rgba(51, 51, 51, 1);
+      text-align: center;
+    }
+  }
+}
+
+.pull-load-more {
+  position: relative;
+  transform: translateY(0);
+}
+
+.pull-load-scroll-nothing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: calc(100vh - rem(178px));
+
+  img {
+    width: rem(132px);
+    height: rem(132px);
+  }
+
+  .text {
+    margin-top: rem(18px);
+    font-family: PingFangSC-Regular, sans-serif;
+    font-size: rem(13px);
+    font-weight: 400;
+    line-height: rem(13px);
+    color: rgba(170, 170, 170, 1);
+    text-align: center;
+  }
 }

@@ -1,3 +1,5 @@
+## [0.0.2-alpha.2](https://github.com/ajycc20/react-pullload/compare/0.0.2-alpha.1...0.0.2-alpha.2) (2021-12-23)
+
 ## 0.0.2-alpha.1 (2021-12-23)
 
 

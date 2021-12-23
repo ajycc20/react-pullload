@@ -1,3 +1,12 @@
+## 0.0.2-alpha.1 (2021-12-23)
+
+
+### Features
+
+* add rollup babel config ([7f285e4](https://github.com/ajycc20/react-pullload/commit/7f285e4bdeed231ee98944894e1a6744bd8ed1d9))
+* init pullload ([abb0166](https://github.com/ajycc20/react-pullload/commit/abb01666a7605f505a287d0f4832f4c1207bddd8))
+* npm init ([8314ef8](https://github.com/ajycc20/react-pullload/commit/8314ef8ffd1f25d4e2351cdae6db366cd71c8a4b))
+
 ## 0.0.2-alpha.0 (2021-12-23)
 
 

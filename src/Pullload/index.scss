@@ -57,32 +57,3 @@ $baseFontSize: 16px;
   position: relative;
   transform: translateY(0);
 }
-
-.pull-load-scroll-nothing {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: calc(100vh - rem(178px));
-
-  img {
-    width: rem(132px);
-    height: rem(132px);
-  }
-
-  .text {
-    margin-top: rem(18px);
-    font-family: PingFangSC-Regular, sans-serif;
-    font-size: rem(13px);
-    font-weight: 400;
-    line-height: rem(13px);
-    color: rgba(170, 170, 170, 1);
-    text-align: center;
-  }
-}
